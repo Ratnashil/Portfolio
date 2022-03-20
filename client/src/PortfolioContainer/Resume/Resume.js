@@ -101,6 +101,12 @@ const Resume = (props) => {
         </div>,
 
         <div className='resume-screen-container' key='work-experience'>
+             <ResumeHeading
+                heading={"Argus System, Pune"}
+                subHeading={"Software Developer"}
+                fromDate={"Nov 2020"}
+                toDate={"Present"}
+            />
             <ResumeHeading
                 heading={"Inavit System, Pune"}
                 subHeading={"Research and Development Intern"}
@@ -113,12 +119,6 @@ const Resume = (props) => {
                 fromDate={"Jan 2019"}
                 toDate={"Aug 2020"}
             />
-           
-            <div className='experience-description'>
-                <span className='resume-describtion-text'>
-                    Worked as Junior programmer and experience in circuit design and Embedded Programing.
-                </span>
-            </div>
         </div>,
 
 
