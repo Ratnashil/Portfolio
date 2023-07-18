@@ -101,23 +101,23 @@ const Resume = (props) => {
         </div>,
 
         <div className='resume-screen-container' key='work-experience'>
+            <ResumeHeading
+                heading={"Mantra Labs, Bengaluru"}
+                subHeading={"Software Engineer"}
+                fromDate={"Nov 2022"}
+                toDate={"Present"}
+            />
+            <ResumeHeading
+                heading={"Gloify, Bengaluru"}
+                subHeading={"Java Programmer"}
+                fromDate={"April 2022"}
+                toDate={"Nov 2022"}
+            />
              <ResumeHeading
                 heading={"Argus System, Pune"}
                 subHeading={"Software Developer"}
                 fromDate={"Nov 2020"}
-                toDate={"Present"}
-            />
-            <ResumeHeading
-                heading={"Inavit System, Pune"}
-                subHeading={"Research and Development Intern"}
-                fromDate={"Jun 2018"}
-                toDate={"Jan 2019"}
-            />
-            <ResumeHeading
-                heading={"Iface Consulting, Pune"}
-                subHeading={"Junior Programmer"}
-                fromDate={"Jan 2019"}
-                toDate={"Aug 2020"}
+                toDate={"April 2022"}
             />
         </div>,
 
